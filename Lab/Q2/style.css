@@ -1,0 +1,92 @@
+section {
+    background-color: bisque;
+    margin-top: 10%;
+    margin-left: 40%;
+    height: 500px;
+    width: 300px;
+}
+
+article {
+    display: inline-block;
+
+}
+
+.bar {
+    height: 350px;
+    width: 70px;
+    background-color: grey;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+p {
+    text-align: center;
+    margin-left: 25px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#bar1,
+#bar2,
+#bar3 {
+    background-color: white;
+    /* width: 100%; */
+}
+
+#bar1 {
+    height: 70%;
+    animation-name: bargraph1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes bargraph1 {
+    0% {
+        background-color: bisque;
+        height: 100%;
+    }
+
+    100% {
+        background-color: bisque;
+        height: 70%;
+    }
+}
+
+#bar2 {
+    height: 60%;
+    animation-name: bargraph2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes bargraph2 {
+    0% {
+        background-color: bisque;
+        height: 100%;
+    }
+
+    100% {
+        background-color: bisque;
+        height: 60%;
+    }
+}
+
+#bar3 {
+    height: 20%;
+    animation-name: bargraph3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes bargraph3 {
+    0% {
+        background-color: bisque;
+        height: 100%;
+    }
+
+    100% {
+        background-color: bisque;
+        height: 20%;
+    }}

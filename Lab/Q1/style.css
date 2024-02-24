@@ -1,0 +1,82 @@
+
+body {
+    height: auto;
+    margin: 0;
+}
+
+header {
+    background-color: blanchedalmond;
+
+}
+
+header h1 {
+    color: black;
+    text-align: center;
+    padding: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+.menu {
+    background-color: cornflowerblue;
+    top: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px;
+}
+.menu li a {
+
+    text-decoration: none;
+    font-size: larger;
+    padding: 10px;
+    color: white;
+    top: 0;
+}
+.menu li:hover {
+background-color: coral;   
+ padding: 10px;
+}
+
+#dd1,
+#dd2 {
+    position: absolute;
+    width: auto;
+    padding: 0;
+    margin-top: 10px;
+    display: none;
+    background-color: whitesmoke;
+    color: khaki;
+
+}
+
+.menu li:nth-child(2):hover #dd1 ,
+.menu li:nth-child(3):hover #dd2 {
+display: block;
+}
+#dd1 li,
+#dd2 li{
+    display: block;
+}
+#dd1 li:hover,
+#dd2 li:hover{
+   background-color: gainsboro;
+}
+#dd1 li a,
+#dd2 li a{
+    color: royalblue;
+}
+footer{
+    background-color: blanchedalmond;
+    border: 2px solid cornflowerblue;
+    margin-top: 70%;
+}
+footer h2{
+    color: black;
+text-align: center;
+}
